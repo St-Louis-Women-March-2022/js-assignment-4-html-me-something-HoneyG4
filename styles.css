@@ -4,20 +4,24 @@ body{
     margin: 8px;
     display: block;
 }
-h1{
-    text-decoration: underline;
+#mainHeading{ 
     font-size: 40px;
+    color:red;
+    text-align: center; 
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 li.b{
     
     list-style-type: disc;
     font-size: 22px;
+    color:red;
 }
 li.a{
-    font-size:25px;
-    font-weight: bold;
-    background-color: gray;
-
+    font-size:24px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     ;
 }
 #main-body{
@@ -30,36 +34,49 @@ strong{
 div{
     padding: 15px 50px 50px 50px;
 }
-#mainHeading{
-    color:red;
-    text-align: center
-}
+
 .funParagraph{
     color: green;
-    font-size: 21px
-
+    font-size: 21px;
+    font-weight:bold;
 }
 p{
-    font-size: 10px;
+    font-size: 20px;
+    display: inline-block;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 40%;
+    height: 10%;
+    border-style: double;
+    border-width: medium;
+    border-color: gray;
   }
   figcaption{
-    font-size: 20px;
-
+    font-size: 15px;
+    display:block;
+    font-weight: bold;
+    
   }
-  #description{
-    font-size: 10px;
-  }
+  
   .img{
-    display: block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
     width: 35%;
-
-  }
+    
+    }
+    section{
+        display:block;
+    }
+ article{
+    display:block
+ }
+.figure{
+    float: right;
+    width: 75%;
+    
+}
